@@ -110,8 +110,7 @@ Email
           │
           ↓
       Security Report
-
-
+```
 ## Current Limitations
 
 - Header risk scoring is still under development.
