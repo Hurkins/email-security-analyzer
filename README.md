@@ -81,6 +81,37 @@ if at any point you want to run all your messages from the first message in your
 python main.py  --backfill
 ```
 
+## Component Usage
+
+The analysis components are designed to be used independently or together as part of the complete email security analysis workflow.
+
+### Individual Components
+
+The components can be used separately when only a specific type of analysis is required.
+
+#### Header Analysis
+
+The header analysis component can be run independently to analyze email headers and authentication information.
+
+#### Attachment Analysis
+
+The attachment analysis component can be run independently to analyze email attachments for potentially malicious or suspicious content.
+
+### Complete Analysis Pipeline
+
+The components can also be combined as part of the complete analysis pipeline.
+
+```text
+Email
+  │
+  ├── Header Analysis
+  │
+  └── Attachment Analysis
+          │
+          ↓
+      Security Report
+
+
 ## Current Limitations
 
 - Header risk scoring is still under development.
