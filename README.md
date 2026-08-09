@@ -69,14 +69,14 @@ Enter the mailbox to be observed
 Mailbox to monitor: INBOX
 ```
 
-Then enter your your app password
+Then enter your app password
 ```bash
 Enter your app password:
 ```
 
-that will get you straight to idle mode until new message come then back to idle mode
+that will get you straight to idle mode until a new message come then returns to idle mode
 
-if at any point you want to run all your messages from the first message in your mailbox, use the
+If at any point you want to run all your messages from the first message in your mailbox, use the
 ```bash
 python main.py  --backfill
 ```
@@ -93,9 +93,17 @@ The components can be used separately when only a specific type of analysis is r
 
 The header analysis component can be run independently to analyze email headers and authentication information.
 
+```bash
+python header_analyzer.py /path/to/your/email.eml
+```
+
 #### Attachment Analysis
 
 The attachment analysis component can be run independently to analyze email attachments for potentially malicious or suspicious content.
+
+```bash
+python extension_analyzer.py /path/to/your/attachment
+```
 
 ### Complete Analysis Pipeline
 
@@ -118,7 +126,7 @@ Email
 
 ## Project Status
 
-Version: 1.0
+Version: 1.0.0
 
 This is the first public release of Email Security Analyzer.
 
