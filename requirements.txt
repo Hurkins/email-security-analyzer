@@ -1,0 +1,10 @@
+IMAPClient==3.1.0
+python-magic==0.4.27
+oletools==0.60.2
+PyMuPDF==1.27.2.3
+yara-python==4.5.4
+humanize==4.16.0
+tqdm==4.68.2
+questionary==2.1.1
+publicsuffix2==2.20191221
+
