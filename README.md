@@ -126,7 +126,7 @@ Email
 
 ## Project Status
 
-Version: 1.0.0
+Version: 1.0-beta.0
 
 This is the first public release of Email Security Analyzer.
 
